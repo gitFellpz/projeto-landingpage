@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: grid;
+    /* Temos 4 colunas e 1 linha para cada 'div' */
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "about about about about"
+    "services services services"
+    "projects projects projects projects"
+    "footer footer footer footer"
+    ;
+
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+    /* 16px */
+    /* 2rem = 20px */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* NONEAÇÃO DE AREAS
+    HEADER */
+    .header{
+        grid-area: header;
+    }
+
+    /* HERO */
+    .hero{
+        grid-area: hero;
+    }
+
+    /* ABOUT */
+    .about{
+        grid-area: about;
+    }
+
+    /* SERVICES */
+    .services{
+        grid-area: services;
+    }
+
+    /* PROJECTS */
+    .projects{
+        grid-area: projects;
+    }
+
+    /* FOOTER */
+    .footer{
+        grid-area: footer;
+    }
