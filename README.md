@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./images/aula-animação1.gif)
+![](./images/aula-animação2.gif)
 
 ### Links
 
