@@ -1,4 +1,4 @@
-# Frontend Mentor - Quest
+# Projeto landing page
 
 Esse projeto foi realizado na aula do curso DevQuest com o objetivo de aprimorar as noções tecnicas de HTML, CSS e do desenvolvimento de uma landing page.
 
