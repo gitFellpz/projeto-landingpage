@@ -24,6 +24,7 @@
     align-self: flex-end;
     transition: 0.4s;
     border-radius: 40px;
+    cursor: pointer;
 }
 .header nav label{
     display: flex;
@@ -79,6 +80,7 @@
 .header input:checked ~ label .menu{
     background-color: red;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 @media (max-width: 900px){
@@ -108,5 +110,6 @@
         text-align: center;
         padding: 20px;
         display: block;
+        
     }
 }
